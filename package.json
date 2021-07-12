@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev": "node-dev --no-notify scr/app.js",
+    "dev": "node-dev --no-notify src/app.js",
     "migrate": "node src/database/migrate.js",
     "seed": "node src/database/seeders/seeder.js"
   },
@@ -24,6 +24,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
+    "node-dev": "^7.0.0",
     "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
   }
