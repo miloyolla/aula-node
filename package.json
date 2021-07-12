@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js", 
-    "dev": "node-dev --no-notify scr/app.js", 
-    "migrate": "node src/database/migrate.js", 
+    "start": "node src/app.js",
+    "dev": "node-dev --no-notify scr/app.js",
+    "migrate": "node src/database/migrate.js",
     "seed": "node src/database/seeders/seeder.js"
   },
   "repository": {
@@ -23,6 +23,8 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "sequelize": "^6.6.5"
+    "mysql": "^2.18.1",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
   }
 }
